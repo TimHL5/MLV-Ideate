@@ -1,7 +1,6 @@
 import { Menu } from "lucide-react";
 import { ReactNode } from "react";
 
-import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 import LaunchUI from "../../logos/launch-ui";
@@ -42,17 +41,17 @@ interface NavbarProps {
 export default function Navbar({
   logo = <LaunchUI />,
   name = "Launch UI",
-  homeUrl = siteConfig.url,
+  homeUrl = "https://www.launchuicomponents.com/",
   mobileLinks = [
-    { text: "Getting Started", href: siteConfig.url },
-    { text: "Components", href: siteConfig.url },
-    { text: "Documentation", href: siteConfig.url },
+    { text: "Getting Started", href: "https://www.launchuicomponents.com/" },
+    { text: "Components", href: "https://www.launchuicomponents.com/" },
+    { text: "Documentation", href: "https://www.launchuicomponents.com/" },
   ],
   actions = [
-    { text: "Sign in", href: siteConfig.url, isButton: false },
+    { text: "Sign in", href: "https://www.launchuicomponents.com/", isButton: false },
     {
       text: "Get Started",
-      href: siteConfig.url,
+      href: "https://www.launchuicomponents.com/",
       isButton: true,
       variant: "default",
     },

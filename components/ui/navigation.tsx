@@ -4,7 +4,6 @@ import Link from "next/link";
 import * as React from "react";
 import { ReactNode } from "react";
 
-import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 import LaunchUI from "../logos/launch-ui";
@@ -58,7 +57,7 @@ export default function Navigation({
     {
       title: "Documentation",
       isLink: true,
-      href: siteConfig.url,
+      href: "https://www.launchuicomponents.com/",
     },
   ],
   components = [
@@ -101,22 +100,22 @@ export default function Navigation({
   logo = <LaunchUI />,
   logoTitle = "Launch UI",
   logoDescription = "Landing page template built with React, Shadcn/ui and Tailwind that you can copy/paste into your project.",
-  logoHref = siteConfig.url,
+  logoHref = "https://www.launchuicomponents.com/",
   introItems = [
     {
       title: "Introduction",
-      href: siteConfig.url,
+      href: "https://www.launchuicomponents.com/",
       description:
         "Re-usable components built using Radix UI and Tailwind CSS.",
     },
     {
       title: "Installation",
-      href: siteConfig.url,
+      href: "https://www.launchuicomponents.com/",
       description: "How to install dependencies and structure your app.",
     },
     {
       title: "Typography",
-      href: siteConfig.url,
+      href: "https://www.launchuicomponents.com/",
       description: "Styles for headings, paragraphs, lists...etc",
     },
   ],
@@ -127,11 +126,11 @@ export default function Navigation({
         {menuItems.map((item, index) => (
           <NavigationMenuItem key={index}>
             {item.isLink ? (
-              <NavigationMenuLink className={navigationMenuTriggerStyle()} asChild>
-                <Link href={item.href || ""}>
+              <Link href={item.href || ""} legacyBehavior passHref>
+                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                   {item.title}
-                </Link>
-              </NavigationMenuLink>
+                </NavigationMenuLink>
+              </Link>
             ) : (
               <>
                 <NavigationMenuTrigger>{item.title}</NavigationMenuTrigger>

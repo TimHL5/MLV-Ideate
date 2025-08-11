@@ -14,22 +14,22 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(siteConfig.getStartedUrl),
   description: siteConfig.description,
-  keywords: [
-    "Landing page template",
-    "Components",
-    "Shadcn",
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Radix UI",
-  ],
-  authors: [
-    {
-      name: "Mikolaj Dobrucki",
-      url: "https://mikolajdobrucki.com",
-    },
-  ],
-  creator: "mikolajdobrucki",
+  // keywords: [
+  //   "Landing page template",
+  //   "Components",
+  //   "Shadcn",
+  //   "Next.js",
+  //   "React",
+  //   "Tailwind CSS",
+  //   "Radix UI",
+  // ],
+  // authors: [
+  //   {
+  //     name: "Mikolaj Dobrucki",
+  //     url: "https://mikolajdobrucki.com",
+  //   },
+  // ],
+  // creator: "mikolajdobrucki",
   openGraph: {
     type: "website",
     locale: "en_US",

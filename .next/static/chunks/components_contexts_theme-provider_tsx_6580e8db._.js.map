@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/Timmy/Documents/MLV-Ideate/components/contexts/theme-provider.tsx"],"sourcesContent":["\"use client\";\n\nimport { ThemeProvider as NextThemeProvider } from \"next-themes\";\nimport { useEffect, useState } from \"react\";\n\nexport function ThemeProvider({ children }: { children: React.ReactNode }) {\n  const [mounted, setMounted] = useState(false);\n\n  useEffect(() => {\n    setMounted(true);\n  }, []);\n\n  if (!mounted) {\n    return <>{children}</>;\n  }\n\n  return (\n    <NextThemeProvider\n      attribute=\"class\"\n      defaultTheme=\"dark\"\n      enableSystem={false}\n    >\n      {children}\n    </NextThemeProvider>\n  );\n}\n"],"names":[],"mappings":";;;;AAEA;AACA;;;AAHA;;;AAKO,SAAS,cAAc,KAA2C;QAA3C,EAAE,QAAQ,EAAiC,GAA3C;;IAC5B,MAAM,CAAC,SAAS,WAAW,GAAG,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE;IAEvC,CAAA,GAAA,6JAAA,CAAA,YAAS,AAAD;mCAAE;YACR,WAAW;QACb;kCAAG,EAAE;IAEL,IAAI,CAAC,SAAS;QACZ,qBAAO;sBAAG;;IACZ;IAEA,qBACE,6LAAC,mJAAA,CAAA,gBAAiB;QAChB,WAAU;QACV,cAAa;QACb,cAAc;kBAEb;;;;;;AAGP;GApBgB;KAAA","debugId":null}}]
+}
