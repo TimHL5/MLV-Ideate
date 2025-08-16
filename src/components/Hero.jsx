@@ -148,13 +148,12 @@ export default function Hero() {
       </p>
 
       <div className="mt-7 flex flex-wrap items-center gap-3">
-        <button className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-lime-400 to-yellow-400 px-5 py-2.5 text-base sm:text-base font-medium text-black leading-none hover:opacity-90"
-        as="a"
+        <a className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-lime-400 to-yellow-400 px-5 py-2.5 text-base sm:text-base font-medium text-black leading-none hover:opacity-90"
         href="https://forms.gle/DrHQu6CwdJqtQU1R9"
         target="_blank">
           Join the waitlist
           <ArrowRight className="h-5 w-5" />
-        </button>
+        </a>
       </div>
 
       <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3">

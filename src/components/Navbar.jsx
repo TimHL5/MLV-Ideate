@@ -54,6 +54,9 @@ export default function Navbar() {
           <a href="#speakers" className="text-base text-white/70 hover:text-white">
             Speakers
           </a>
+          <a href="#waitlist" className="text-base text-white/70 hover:text-white">
+            Waitlist
+          </a>
           <a href="https://www.mlvignite.com" className="text-base text-white/70 hover:text-white">
             MLV Ignite
           </a>
