@@ -54,16 +54,16 @@ const OutcomeItem = ({ outcome }) => (
 
 // Fixed image sets per column
 const COL1 = [
-  { src: asset("mlv-1.JPG"), alt: "MLV group 1" },
-  { src: asset("mlv-2.JPG"), alt: "MLV group 2" },
+  { src: asset("mlv-1.webp"), alt: "MLV group 1" },
+  { src: asset("mlv-2.webp"), alt: "MLV group 2" },
 ];
 const COL2 = [
-  { src: asset("mlv-3.JPG"), alt: "MLV group 3" },
-  { src: asset("mlv-4.JPG"), alt: "MLV group 4" },
+  { src: asset("mlv-3.webp"), alt: "MLV group 3" },
+  { src: asset("mlv-4.webp"), alt: "MLV group 4" },
 ];
 const COL3 = [
-  { src: asset("mlv-5.JPG"), alt: "MLV group 5" },
-  { src: asset("mlv-6.JPG"), alt: "MLV group 6" },
+  { src: asset("mlv-5.webp"), alt: "MLV group 5" },
+  { src: asset("mlv-6.webp"), alt: "MLV group 6" },
 ];
 
 function Column({ items, direction = "up", speed = 120, className = "" }) {

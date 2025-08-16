@@ -5,16 +5,16 @@ import { motion } from "framer-motion";
 const asset = (file) => `${import.meta.env.BASE_URL}images/${file}`;
 
 const LOGOS = [
-  { src: asset("upenn.png"),   alt: "University of Pennsylvania (Wharton)" },
-  { src: asset("nyu.png"),     alt: "New York University" },
-  { src: asset("mit.png"),     alt: "Massachusetts Institute of Technology" },
-  { src: asset("harvard.png"), alt: "Harvard University" },
-  { src: asset("bc.png"),      alt: "Boston College" },
-  { src: asset("bu.png"),      alt: "Boston University" },
-  { src: asset("ucla.png"),    alt: "University of California, Los Angeles" },
-  { src: asset("imperial.png"),alt: "Imperial College London" },
-  { src: asset("ucl.png"),     alt: "University College London" },
-  { src: asset("lse.png"),     alt: "London School of Economics" },
+  { src: asset("upenn.webp"),   alt: "University of Pennsylvania (Wharton)" },
+  { src: asset("nyu.webp"),     alt: "New York University" },
+  { src: asset("mit.webp"),     alt: "Massachusetts Institute of Technology" },
+  { src: asset("harvard.webp"), alt: "Harvard University" },
+  { src: asset("bc.webp"),      alt: "Boston College" },
+  { src: asset("bu.webp"),      alt: "Boston University" },
+  { src: asset("ucla.webp"),    alt: "University of California, Los Angeles" },
+  { src: asset("imperial.webp"),alt: "Imperial College London" },
+  { src: asset("ucl.webp"),     alt: "University College London" },
+  { src: asset("lse.webp"),     alt: "London School of Economics" },
 ];
 
 const SPEED = 30; // bigger = slower
