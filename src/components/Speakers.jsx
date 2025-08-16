@@ -13,7 +13,7 @@ export default function Speakers() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl font-bold tracking-tight md:text-4xl">Learn From the Best</h2>
-          <p className="mt-3 text-white/70">Insights from world-class founders, investors, and operators.</p>
+          <p className="mt-3 text-white/70">MLV students have learned from founders, executives, and industry experts including:</p>
         </div>
 
         <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
