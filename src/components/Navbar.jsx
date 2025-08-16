@@ -27,7 +27,7 @@ export default function Navbar() {
         <a href="#" className="group inline-flex items-center gap-2 py-3">
           {/* Logo */}
           <img
-            src="public/images/logo-gradient.png"
+            src="/images/logo-gradient.png"
             alt="MLV IDEATE Logo"
             className="h-7 w-auto select-none"
             draggable="false"
